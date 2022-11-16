@@ -1,0 +1,43 @@
+botão direito na pasta e click em "GIT BASH HERE"
+git init 					(para iniciar o git)
+git status 					(para ver o que o git está versionando)
+git add "" 					(para adicionar um arquivo em específico)
+git add . 					(para adicionar todos os arquivos ao repositório git)
+git commit -m "commit inicial"	(criar nova versão)
+git config --global user.email "felipeleitesobral@hotmail.com" 	(configurar email do git)
+git config --global user.name "Felipe Leite Sobral" 			(nome que estará atrelado a versão git)
+git commit -m "git inicial" 		(criar versão)
+git push 					(enviar alterações e versoes git)
+						(criar repositorio no GITHUB)
+git remote add origin https://github.com/FelipeLeiteSobral/estudo_aprofundado_programacao (onde o código deverá ser enviado, link do repositório)
+git push (enviará alterações e versões git)
+git push --set-upstream origin master 					(definir qual branch seu código será direcionado)
+						(logar com o navegador)
+						(autorizar autenticação)
+						(f5 na pagina do GITHUB)
+						(na aba haverá main e o novo repositório)
+git reflog 					(verificar histórico)
+git reset --hard XXXXX 			(para resetar git/selecionar uma versao, onde o ID XXXXX é encontrado no histórico na cor amarela)
+						(branch principal se chama master normalmente)
+git branch 					(ver as branchs disponiveis e a de nome verde é a que voce está atualmente)
+git branch exemplo 			(criar uma nova branch)
+git checkout nomedabranch 		(selecionar/alterar para uma branch)
+gir merge nomedabranch 			(unir branchs, caso tenham arquivos iguais a branch selecionada será sobrescrita da branch escrita no codigo)
+git pull 					(atualizar modificações realizadas no código por outras pessoas e irá atualizar o servidor da branch selecionada, normalmente é feito antes de uma "git merge ...")
+						(pull request no GITHUB para fazer um merge de branch com pedido de autorização)
+touch .gitignore 				(cria um arquivo em txt para que o GIT não suba os arquivos ali digitados)
+
+
+# Lista de comandos
+git init
+git add.
+git status
+git commit -m "mensagem do commit"
+git push
+git branch
+git checkout nome-da-branch
+git checkout -b nome-da-branch-de-origem nome-da-nova-branch
+git merge branch-a-receber-merge
+git pull
+git remote -v
+git branch -d <branch>
